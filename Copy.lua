@@ -10,6 +10,8 @@ frame.Size = UDim2.new(0, 250, 0, 160)
 frame.Position = UDim2.new(0, 20, 0, 20)
 frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 frame.BorderSizePixel = 0
+frame.Active = true
+frame.Draggable = true
 
 local textBox = Instance.new("TextBox", frame)
 textBox.PlaceholderText = "Enter username"
